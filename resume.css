@@ -13,7 +13,7 @@ body {
     width: 8.5in;
     height: 10.58325in;
     color: #222;
-    font-family: 'Calibri', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 /* Resume Container */
@@ -41,6 +41,7 @@ body {
     font-weight: bolder;
     text-decoration: underline;
     flex-flow: row nowrap;
+    margin-bottom: 3px;
 }
 
 .contact {
@@ -59,10 +60,11 @@ a {
 }
 
 .section-header {
-    font-size: 18pt;
+    font-size: 16pt;
     font-weight: bold;
     color: midnightblue;
     border-bottom: 2px solid midnightblue; /* Single blue line */
+    margin-bottom: 3px;
 }
 
 /* Subsections */
@@ -87,7 +89,7 @@ a {
     font-weight: bold;
 }
 
-.secondary-subhead {
+.secondary-subheader {
     font-size: 13pt;
     font-weight: normal;
 }
@@ -106,7 +108,7 @@ a {
 }
 
 .subsection-item {
-    font-size: 11pt;
+    font-size: 10pt;
     line-height: 1.2;
     margin-bottom: 1px;
     margin-top: 0px;
@@ -144,6 +146,10 @@ hr {
     border: 1px solid midnightblue;
     justify-content: center;
     align-items: center;
+}
+
+.skills-bottom{
+    font-size: 10pt;
 }
 
 .skill-item {
